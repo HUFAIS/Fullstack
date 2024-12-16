@@ -1,0 +1,17 @@
+h1{
+    color:white;
+    text-align:left;
+    background-color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    background-color:maroon;
+    color: bisque;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+h2,h3,div,input{
+    text-align: center;
+}

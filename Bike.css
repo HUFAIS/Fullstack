@@ -1,0 +1,79 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Product Grid Styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items per row */
+    gap: 50px; /* Spacing between items */
+    padding: 20px;
+    max-width: 1200px; /* Center alignment with margin */
+    margin: 0 auto;
+}
+
+/* Individual Product Item Styling */
+.product-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image Styling */
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Product Title Styling */
+.product-title {
+    font-size: 1rem;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Product Price Styling */
+.product-price {
+    color: #555;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+/* Special Styling for ID "id1" */
+#id1 {
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
